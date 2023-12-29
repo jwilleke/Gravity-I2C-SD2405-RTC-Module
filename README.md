@@ -12,4 +12,4 @@ Contains the Following:
 
 [Get the RTC Module here](https://www.dfrobot.com/wiki/index.php/Gravity:_I2C_SD2405_RTC_Module_SKU:_DFR0469)
 
-# To Download, please click "Clone & Download ZIP"
+To Download, please click "Clone & Download ZIP"
