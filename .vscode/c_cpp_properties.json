@@ -1,0 +1,106 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Volumes/hd3/client-projects/arduino/Gravity-I2C-SD2405-RTC-Module/include",
+                "/Volumes/hd3/client-projects/arduino/Gravity-I2C-SD2405-RTC-Module/src",
+                "/Volumes/hd3/client-projects/arduino/Gravity-I2C-SD2405-RTC-Module/lib/GravityRtc",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Wire",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/tinyusb",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/api/deprecated",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/api/deprecated-avr-comp",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/variants/UNOWIFIR4",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/AnalogWave",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_CAN/src",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_FreeRTOS/src",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_LED_Matrix/src",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/BlockDevices",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/EEPROM/src",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/FATFilesystem",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/HID",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/LittleFilesystem",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/OPAMP/src",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/OTAUpdate/src",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/RTC/src",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/SDU/src",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/SPI",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/SoftwareSerial/src",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Storage",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/WDT/src",
+                "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/WiFiS3/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Volumes/hd3/client-projects/arduino/Gravity-I2C-SD2405-RTC-Module/include",
+                    "/Volumes/hd3/client-projects/arduino/Gravity-I2C-SD2405-RTC-Module/src",
+                    "/Volumes/hd3/client-projects/arduino/Gravity-I2C-SD2405-RTC-Module/lib/GravityRtc",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Wire",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/tinyusb",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/api/deprecated",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/api/deprecated-avr-comp",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/variants/UNOWIFIR4",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/AnalogWave",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_CAN/src",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_FreeRTOS/src",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_LED_Matrix/src",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/BlockDevices",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/EEPROM/src",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/FATFilesystem",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/HID",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/LittleFilesystem",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/OPAMP/src",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/OTAUpdate/src",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/RTC/src",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/SDU/src",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/SPI",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/SoftwareSerial/src",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Storage",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/WDT/src",
+                    "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/WiFiS3/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60111",
+                "ARDUINO_UNOWIFIR4",
+                "ARDUINO_ARCH_RENESAS_UNO",
+                "ARDUINO_UNOR4_WIFI",
+                "NO_USB",
+                "BACKTRACE_SUPPORT",
+                "LWIP_DNS=1",
+                "CFG_TUSB_MCU=OPT_MCU_RAXXX",
+                "_RA_CORE=CM4",
+                "_RENESAS_RA_",
+                "ARDUINO=10810",
+                "ARDUINO_ARCH_RENESAS",
+                "ARDUINO_FSP",
+                "_XOPEN_SOURCE=700",
+                "F_CPU=48000000L",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "compilerPath": "/Users/jim/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mfloat-abi=hard",
+                "-mfpu=fpv4-sp-d16",
+                "-mthumb",
+                "-iprefix/Users/jim/.platformio/packages/framework-arduinorenesas-uno",
+                "@/Users/jim/.platformio/packages/framework-arduinorenesas-uno/variants/UNOWIFIR4/includes.txt",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
