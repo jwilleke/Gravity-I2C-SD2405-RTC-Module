@@ -17,6 +17,7 @@
                 "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/api/deprecated",
                 "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/api/deprecated-avr-comp",
                 "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/variants/UNOWIFIR4",
+                "/Users/jim/.platformio/lib/specials",
                 "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/AnalogWave",
                 "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_CAN/src",
                 "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_FreeRTOS/src",
@@ -49,6 +50,7 @@
                     "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/api/deprecated",
                     "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/api/deprecated-avr-comp",
                     "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/variants/UNOWIFIR4",
+                    "/Users/jim/.platformio/lib/specials",
                     "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/AnalogWave",
                     "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_CAN/src",
                     "/Users/jim/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_FreeRTOS/src",
@@ -71,7 +73,7 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=60111",
+                "PLATFORMIO=60113",
                 "ARDUINO_UNOWIFIR4",
                 "ARDUINO_ARCH_RENESAS_UNO",
                 "ARDUINO_UNOR4_WIFI",
